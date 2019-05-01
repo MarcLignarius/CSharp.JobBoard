@@ -1,3 +1,4 @@
+@using JobBoard.Models;
 <!DOCTYPE html>
 <html>
 <head>
@@ -13,11 +14,12 @@
     </div>
     <div>
       <ul>
-        <li>@Model.Title
-        <br>
-        @Model.Description
-        <br>
-        @Model.Contact</li>
+        @foreach (JobPosting jobposting in Model)
+        {
+          <h5>@Model.Title<h5><br>
+          <li>@Model.Description</li>
+          <li>@Model.Contact</li>
+        }
       </ul>
       <a href="/jobpostings/new" class="btn btn-dark">Add a new job posting</a>
     </div>
