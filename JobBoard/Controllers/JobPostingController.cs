@@ -1,26 +1,26 @@
 using Microsoft.AspNetCore.Mvc;
-using JobBoard.Models;
 using System.Collections.Generic;
+using JobBoard.Models;
 
 namespace JobBoard.Controllers
 {
   public class JobPostingController : Controller
   {
 
-    [Route("/jobpostings")]
+    [HttpGet("/jobpostings")]
     public ActionResult Index()
     {
         List<JobPosting> allJobs = JobPosting.GetAll();
         return View(allJobs);
     }
 
-    [Route("/jobpostings/new")]
+    [HttpGet("/jobpostings/new")]
     public ActionResult JobForm()
     {
         return View();
     }
 
-    [Route("/jobpostings")]
+    [HttpPost("/jobpostings")]
     public ActionResult Create(string title, string description, string contact)
     {
         JobPosting myJobPosting = new JobPosting(title, description, contact);
