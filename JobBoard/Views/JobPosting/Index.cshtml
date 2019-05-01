@@ -1,0 +1,26 @@
+@using JobBoard.Models;
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Job Board</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='~/css/styles.css'>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Job Board</h1>
+    </div>
+    <div>
+      <ul>
+        @foreach (JobPosting jobPosting in Model)
+        {
+          <li>@jobPosting.Title</li>
+        }
+      </ul>
+      <a href="/jobpostings/new" class="btn btn-dark">Add a new job posting</a>
+    </div>
+  </div>
+</body>
+</html>
