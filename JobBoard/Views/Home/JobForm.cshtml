@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Job Board</title>
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='~/css/styles.css'>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Job Board</h1>
+    </div>
+    <div>
+      <form action="/jobpostings" method="post">
+        <label for="title">Job Title</label>
+        <input id="title" name="title" type="text"><br>
+        <label for="description">Job Description</label>
+        <input id="description" name="description" type="text"><br>
+        <label for="contact">Contact Information</label>
+        <input id="contact" name="contact" type="text"><br>
+        <button type="submit" class="btn btn-dark">Add Job</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
