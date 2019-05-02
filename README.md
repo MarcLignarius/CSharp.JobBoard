@@ -1,47 +1,20 @@
-# _MVC Web Application Template_
+# _JobBoard.Solution_
 
-#### _Structure and files to build an Epicodus C# Week 2 Project, last updated 04/29/2019_
+#### _Program which lets users add job posting and consult a job board, 04/30/2019_
 
-#### By _**Your name here**_
+#### By _**Marc Davies, Stuart McKay**_
 
 ## Description
 
-_Structure and files to build an Epicodus C# Week 2 Project:_
-
-* _A main directory called MVCWebAppTemplate, including a .gitignore file and README. You can rename this directory from the Desktop or Terminal, but not in Atom._
-* _A ProjectName subdirectory, including Startup.cs, Program.cs and ProjectName.csproj_
-* _A Controllers subdirectory, including HomeControllers.cs_
-* _A Models subdirectory, including ProjectVariable.cs_
-* _A Views/Home subdirectory, including Input.cshtml and Output.cshtml (names match in HomeControllers.cs)_
-* _A wwwroot/css subdirectory, including styles.css_
+_Program which lets users add job posting and consult a job board._
 
 ## Setup/Installation Requirements
 
 * _Clone from GitHub_
-* _(Optional) $mv MVCWebAppTemplate DirectoryNameOfYourChoice_
-* _$cd MVCWebAppTemplate (or new name if renamed)_
-* _$rm -rf .git to delete my commit history_
-* _$git init to create a new git repository_
-* _$atom . to open all the files in Atom_
-* _(Optional) $atom . and rename each file to your current project name (see note below)_
-* _(Optional) Rename namespaces and class names in the .cs files_
-* _$cd ProjectName (or new name if renamed)_
+* _$cd JobBoard.Solution/JobBoard_
 * _$dotnet restore to install packages from the .csproj file_
 * _$dotnet run to run the application_
-
-_And you're done! You can commit this to a repository of your choice as your initial commit._
-
-_Note: If you don't rename the files before $dotnet restore / $dotnet build, all the files created will use ProjectName. Renaming after $dotnet restore / $dotnet build is a tedious and error-prone task._
-
-## Specs
-
-| Behavior | Input | Output |
-| ------------- |:-------------:| -----:|
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
-| Lorem | x | true/false |
+* _Launch [http://localhost:5000](http://localhost:5000]_
 
 ## Known Bugs
 
@@ -59,4 +32,4 @@ _C#, ASP.NET Core, MVC_
 
 *This software is licensed under the GPL license.*
 
-Copyright (c) 2019 **_Your name here_**
+Copyright (c) 2019 **_Marc Davies, Stuart McKay_**
