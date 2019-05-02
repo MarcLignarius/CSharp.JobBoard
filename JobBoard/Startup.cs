@@ -25,7 +25,6 @@ namespace JobBoard
 
         public void Configure(IApplicationBuilder app)
         {
-            app.UseDeveloperExceptionPage();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
@@ -34,7 +33,6 @@ namespace JobBoard
             });
             app.UseDeveloperExceptionPage();
             app.UseStaticFiles();
-
             app.Run(async (context) =>
             {
                 await context.Response.WriteAsync("Hello World!");

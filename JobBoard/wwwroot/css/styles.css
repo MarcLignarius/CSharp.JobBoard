@@ -1,1 +1,29 @@
+body {
+  background-image: url("https://blrota-live-febe61eec01b4afba079f098112-c07efe5.divio-media.net/filer_public_thumbnails/filer_public/d9/7e/d97e0232-25ce-43ed-9a69-44a059242426/job-search-strategy.jpg__800x450_q85_crop_subject_location-480%2C270_subsampling-2.jpg");
+  background-blend-mode: multiply;
+  background-color: #3D3A39;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
 
+.jumbotron h1{
+  opacity: 0.80;
+}
+
+.jumbotron {
+  background: rgba(61, 58, 57, 0.75);
+}
+
+.btn {
+  margin-bottom: 5px;
+  background: rgba(61, 58, 57, 0.75);
+}
+
+
+
+.list {
+  margin-left: 20%;
+  margin-right: 20%;
+}
