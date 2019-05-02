@@ -14,7 +14,7 @@ _Program which lets users add job posting and consult a job board._
 * _$cd JobBoard.Solution/JobBoard_
 * _$dotnet restore to install packages from the .csproj file_
 * _$dotnet run to run the application_
-* _Launch [http://localhost:5000](http://localhost:5000]_
+* _Launch [http://localhost:5000](http://localhost:5000)_
 
 ## Known Bugs
 
